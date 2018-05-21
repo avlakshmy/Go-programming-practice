@@ -6,7 +6,7 @@ import "fmt"
 
 type Furniture interface {
 	Material () string
-	Price() string
+	Price () string
 }
 
 type chair struct {	
